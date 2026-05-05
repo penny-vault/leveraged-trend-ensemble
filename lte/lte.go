@@ -111,7 +111,7 @@ func (s *LeveragedTrendEnsemble) Describe() engine.StrategyDescription {
 		Version:     "0.1.0",
 		VersionDate: time.Date(2026, 5, 3, 0, 0, 0, 0, time.UTC),
 		Schedule:    "@weekend",
-		Benchmark:   "VFINX",
+		Benchmark:   "SPY",
 		// Slow trend (252) + the oldest tranche's rebalance offset (~21 trading
 		// days back) needs ~273 days of history to evaluate at that tranche's
 		// most recent rebalance. The vol percentile chain (1 + 19 + 251 = 271)
