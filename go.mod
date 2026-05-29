@@ -3,7 +3,7 @@ module github.com/penny-vault/leveraged-trend-ensemble
 go 1.26
 
 require (
-	github.com/penny-vault/pvbt v0.10.2
+	github.com/penny-vault/pvbt v0.10.3
 	github.com/rs/zerolog v1.35.1
 )
 
