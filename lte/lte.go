@@ -108,8 +108,8 @@ func (s *LeveragedTrendEnsemble) Describe() engine.StrategyDescription {
 		ShortCode:   "lte",
 		Description: description,
 		Source:      "https://github.com/penny-vault/strategies/tree/main/leveraged-trend-ensemble",
-		Version:     "0.1.0",
-		VersionDate: time.Date(2026, 5, 3, 0, 0, 0, 0, time.UTC),
+		Version:     "0.1.1",
+		VersionDate: time.Date(2026, 7, 14, 0, 0, 0, 0, time.UTC),
 		Schedule:    "@weekend",
 		Benchmark:   "SPY",
 		// Slow trend (252) + the oldest tranche's rebalance offset (~21 trading
